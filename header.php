@@ -57,6 +57,10 @@
                                     <img src="<?= base_url();?>assets/images/brush.png">
                                     <a href="<?= base_url();?>">علاقمندی ها</a>
                                 </li>
+                                <li class="test" >
+                                    <img src="<?= base_url();?>assets/images/brush.png">
+                                    <a href="<?= base_url();?>">علاقمندی ها</a>
+                                </li>
                             </ul>
                         </menu>
                     </div>
