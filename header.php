@@ -5,7 +5,7 @@
 	<head>
     	<meta charset="utf-8">
         
-	<title> کودکان ما</title>
+	<title>  kodakam </title>
         
         <link rel="stylesheet" href="<?= base_url(); ?>assets/css/style.css">
         
