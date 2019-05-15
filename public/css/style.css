@@ -1,0 +1,350 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 6, 2016, 12:50:57 PM
+    Author     : seven
+*/
+::-webkit-input-placeholder {
+  color: #fcd410; }
+
+::-webkit-placeholder {
+  color: #fcd410; }
+
+body {
+  margin: 0;
+  padding: 0;
+  direction: rtl; }
+
+ul, li, menu, h1, h2, h3, h4, h5, h6, header, p {
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: "all";
+  src: url(fonts/BYekan.ttf), url(fonts/BYekan.woff), url(fonts/BYekand41d.eot); }
+* {
+  font-family: "all"; }
+
+section.all {
+  width: 100%;
+  height: auto;
+  float: right;
+  position: relative; }
+
+section.just-center {
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+  max-width: 1800px; }
+
+header {
+  width: 100%;
+  height: auto;
+  background: red;
+  float: right; }
+
+div.logo {
+  width: 100%;
+  height: 60px;
+  background: #000;
+  float: right; }
+  div.logo div.logo-image {
+    width: 110px;
+    height: 130px;
+    float: right;
+    margin-right: 50px; }
+    div.logo div.logo-image img {
+      width: 110px;
+      height: 120px;
+      margin-top: -20px;
+      position: relative;
+      z-index: 1; }
+  div.logo div.logo-text {
+    width: auto;
+    float: right;
+    height: 100%; }
+    div.logo div.logo-text h1 {
+      font-size: 36px;
+      color: #fcd410;
+      text-align: left;
+      margin-top: 30px 30px 20px 0px;
+      font-family: all; }
+
+div.slide {
+  position: relative;
+  float: right;
+  width: 100%;
+  height: 400px; }
+  div.slide img {
+    width: 100%;
+    height: 400px; }
+  div.slide div.cover {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.4); }
+  div.slide menu {
+    width: 80%;
+    height: 80px;
+    margin-right: 10%;
+    position: absolute;
+    bottom: 50px;
+    background: menu-opacity-color;
+    background: -webkit-linear-gradient(left, #0a327a 0%, rgba(7, 34, 80, 0.9) 10%, #0a327a 90%);
+    background: o-linear-gradient(right, #0a327a 0%, rgba(7, 34, 80, 0.9) 10%, #0a327a 90%);
+    background: -moz-linear-gradient(right, #0a327a 0%, rgba(7, 34, 80, 0.9) 0%, #0a327a 90%);
+    background: linear-gradient(to right, #0a327a 0%, rgba(7, 34, 80, 0.9) 10%, #0a327a 90%); }
+    div.slide menu ul {
+      width: 100%;
+      height: 100%;
+      float: left;
+      display: flex;
+      justify-content: center;
+      list-style: none; }
+      div.slide menu ul li {
+        width: auto;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 0px 30px 30px 0px; }
+        div.slide menu ul li img {
+          width: 40px;
+          height: 70px;
+          float: right;
+          margin-bottom: 50px;
+          display: none; }
+        div.slide menu ul li a {
+          font-size: 18px;
+          color: #fff;
+          text-decoration: none; }
+      div.slide menu ul .current-menu-parent img {
+        display: block !important; }
+      div.slide menu ul .current-menu-parent a {
+        color: #ff1515 !important; }
+
+section.panel {
+  width: 100%;
+  height: auto;
+  float: right; }
+  section.panel div.between {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; }
+    section.panel div.between div.item {
+      transition: 0.3s;
+      width: 48%;
+      height: 280px;
+      background: #fcd410;
+      border-top: 1px #fcd410 solid;
+      margin-top: 30px; }
+      section.panel div.between div.item a {
+        width: 100%;
+        height: 100%;
+        display: block; }
+      section.panel div.between div.item img {
+        width: 100%;
+        height: 200px; }
+      section.panel div.between div.item div {
+        width: 50px;
+        height: 40px;
+        padding-top: 10px;
+        border-radius: 2px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 900;
+        color: #fff;
+        margin: 10px 20px 0px 0px;
+        float: right;
+        background: #479f65; }
+      section.panel div.between div.item h1 {
+        font-size: 18px;
+        color: #479f65;
+        float: right;
+        margin: 20px 20px 0px 0px; }
+      section.panel div.between div.item:hover {
+        background: #479f65;
+        border-top: 1px #479f65 solid; }
+        section.panel div.between div.item:hover div {
+          background: #fcd410; }
+        section.panel div.between div.item:hover h1 {
+          color: #fcd410; }
+
+footer {
+  width: 100%;
+  height: 85px;
+  background: #000;
+  float: right;
+  margin-top: 20px; }
+  footer img {
+    width: 110px;
+    height: 110px;
+    margin-top: -25px;
+    float: right;
+    margin-right: 50px; }
+  footer a {
+    color: #fcd410;
+    font-size: 12px;
+    text-decoration: none; }
+  footer h6 {
+    margin: 40px 20px 0px 0px; }
+
+/**************************contact*******************************/
+div.comment {
+  margin-top: 10px;
+  width: 100%;
+  height: auto; }
+  div.comment img {
+    width: 80px;
+    height: 80px;
+    float: right; }
+  div.comment p {
+    color: #072252;
+    font-size: 16px;
+    margin: 40px 90px 0px 0px;
+    text-wrap: normal;
+    line-height: 35px; }
+  div.comment p.clear {
+    clear: both;
+    text-align: center;
+    float: none; }
+  div.comment a {
+    clear: both;
+    text-align: center;
+    color: #072252;
+    font-size: 20px;
+    text-decoration: none;
+    float: none;
+    transition: 0.3s; }
+    div.comment a:hover {
+      color: #479f65; }
+
+div.contact {
+  width: 100%;
+  height: auto;
+  float: right;
+  margin-top: 15px; }
+  div.contact div.contact1 {
+    width: 100%;
+    height: 60px;
+    float: right;
+    justify-content: space-between;
+    display: flex; }
+    div.contact div.contact1 input {
+      width: 32%;
+      border: 3px solid #fcd410;
+      height: 50px;
+      box-sizing: border-box;
+      padding: 10px;
+      color: #479f65; }
+  div.contact div.contact2 {
+    width: 100%;
+    height: 200px;
+    float: right; }
+    div.contact div.contact2 textarea {
+      width: 100%;
+      height: 180px;
+      border: 3px solid #fcd410;
+      box-sizing: border-box;
+      padding: 10px;
+      color: #479f65; }
+  div.contact input[type="submit"] {
+    width: 200px;
+    height: 60px;
+    background: #fcd410;
+    border: none;
+    border-bottom: 3px #479f65 solid;
+    border-radius: 10px;
+    color: #479f65;
+    font-size: 20px;
+    text-align: center;
+    transition: 0.3s;
+    cursor: pointer;
+    float: left; }
+    div.contact input[type="submit"]:hover {
+      border-bottom: 5px #fcd410 solid;
+      background: #479f65;
+      color: #fcd410; }
+
+/**********paint***************/
+@keyframes skew {
+  0% {
+    transform: skewX(2deg); }
+  100% {
+    transform: skewX(-2deg); } }
+div.three-column {
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+  float: right;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+  div.three-column div.column-hidden {
+    width: 32%;
+    height: 202px;
+    margin-top: 20px; }
+    div.three-column div.column-hidden:hover div.column {
+      transform: rotateX(180deg);
+      -webkit-transform: rotateX(180deg); }
+      div.three-column div.column-hidden:hover div.column div.hover {
+        opacity: 1; }
+  div.three-column div.column {
+    position: relative;
+    width: 100%;
+    transition: 0.3s;
+    height: 202px;
+    margin-top: 20px;
+    border: 1px solid #fcd410;
+    box-sizing: border-box; }
+    div.three-column div.column img {
+      width: 100%;
+      height: 200px; }
+    div.three-column div.column div.hover {
+      width: 100%;
+      height: 100%;
+      background: rgba(79, 159, 101, 0.98);
+      position: absolute;
+      top: 0;
+      right: 0;
+      opacity: 0;
+      transition: 0.3s;
+      transition-delay: 0.1s;
+      box-sizing: border-box;
+      padding: 10px;
+      transform: rotateX(180deg);
+      -webkit-transform: rotateX(180deg); }
+      div.three-column div.column div.hover p {
+        color: #fcd410;
+        font-size: 18px; }
+
+/*******************about*********************/
+div.about {
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+  float: right; }
+  div.about img {
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin: 0px 0px 50px 50px;
+    border-radius: 50%; }
+  div.about p {
+    color: #072252;
+    font-size: 16px;
+    margin: 40px 0px 0px 0px;
+    text-wrap: normal;
+    line-height: 35px;
+    text-align: justify; }
+
+/*# sourceMappingURL=style.css.map */
